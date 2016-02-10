@@ -12,15 +12,14 @@ function connect()
          {
 
           echo "Error: Could not connect to database. Please try again later.";
-          console.log("Could not connnect to database");
+          
 
           exit;
 
          } 
-
+          
          mysql_select_db("cryptex16",$con);
-         console.log("Connected to database !!");
-         console.log("con variable is : " + con);
+         
 
          return $con;
 

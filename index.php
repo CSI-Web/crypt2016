@@ -44,7 +44,7 @@ font-family: arial;
 	<div id="background">
 		<div id="header">
 			<?php
-
+			
 	include("include/header.php");
 
 	?>

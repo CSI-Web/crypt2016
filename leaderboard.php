@@ -6,7 +6,7 @@
 
 
 // include('include/fbapi.php');
-// include("functions.php");
+include("functions.php");
 // if(!isset($_SESSION['access_token'])) {
      
 	 
@@ -19,7 +19,7 @@
 //    }
 
 
-// $con=connect();
+$con=connect();
 
 
 
